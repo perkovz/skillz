@@ -33,7 +33,7 @@ list.addEventListener('click', e => {
 });
 
 //filter todos
-const filterTodos = term => {
+const filterTodos = (term) => {
     Array.from(list.children)
     .filter((todo) => !todo.textContent.includes(term))
     .forEach((todo) => todo.classList.add('filtered'));
