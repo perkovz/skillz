@@ -21,3 +21,7 @@ input[type=text]:focus {
 .fa-trash {
     cursor: pointer;
 }
+
+.filtered {
+    display: none;
+}
