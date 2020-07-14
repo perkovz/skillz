@@ -1,14 +1,16 @@
 import React, {Component} from 'react';
+import Navbar from './components/layout/Navbar';
+import Users from './components/users/Users';
 import './App.css';
 
 class App extends Component {
   render() {
-    const name = 'name';
-
     return (
       <div className="App">
-        <h1>Hello React {name.toLowerCase()}</h1>
-        <h2>Learning</h2>
+        <Navbar title="Github Finder" />
+        <div className="container">
+          <Users />
+        </div>
       </div>
     );
   }
