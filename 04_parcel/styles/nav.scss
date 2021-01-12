@@ -1,0 +1,31 @@
+$white: #fff;
+$light: #ccc;
+$dark: #000;
+$gray: #555;
+$red: red;
+$blue: blue;
+
+$colors: (
+  light: $light,
+  dark: $dark
+);
+ 
+$brand-colors: (
+  main: $red,
+  alternative: $blue
+);
+
+$merged: map-merge($colors, $brand-colors);
+
+$validation: (
+  error: ($red, $gray),
+  success: ($blue, $white),
+  warning: ($red, $white)
+);
+
+
+
+
+.nav {
+  content: map-get($merged, alternative);
+}
