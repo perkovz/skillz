@@ -1,0 +1,13 @@
+.nav {
+  content: map-get($merged, alternative);
+
+  .nav_a {
+    color: $blue;
+
+    &:hover, 
+    &:visited,
+    &:active {
+      color: $red;
+    }
+  }
+}

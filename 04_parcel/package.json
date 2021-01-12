@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel index.js",
-    "watch": "parcel watch index.js",
-    "build": "parcel build index.js"
+    "dev": "parcel index.html",
+    "watch": "parcel watch index.html",
+    "build": "parcel build index.html"
   },
   "keywords": [],
   "author": "",

@@ -18,3 +18,14 @@ let str = "5";
 str = str.padStart(4,0);
 
 console.log(str);
+
+
+// Button Component
+
+const Button = () => {
+  const template = `
+    <button class="button">Button</button>
+  `;
+};
+
+export default Button;
