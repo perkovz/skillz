@@ -7,8 +7,14 @@
     "dev": "parcel index.html random.html",
     "build": "parcel build index.html"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perkovz/skillz/tree/master/04_parcel"
+  },
+  "keywords": [
+    "parcel"
+  ],
+  "author": "ZP",
   "license": "ISC",
   "devDependencies": {
     "node-forge": "^0.10.0",
