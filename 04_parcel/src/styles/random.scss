@@ -1,0 +1,13 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: orange;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  background: black;
+  
+  :hover {
+    transform: skewX(30deg);
+    transition: all 1s;
+  }
+}

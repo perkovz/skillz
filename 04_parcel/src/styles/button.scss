@@ -1,6 +1,13 @@
+@import '/src/styles/tokens.scss';
+
 .button {
   display: inline-block;
   padding: .5rem 1rem;
   background: $light;
   color: $gray;
+
+  &:hover {
+    background: $blue;
+    color: $white;
+  }
 }

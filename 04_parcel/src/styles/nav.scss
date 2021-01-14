@@ -1,3 +1,6 @@
+@import '/src/styles/tokens.scss';
+// @use '/src/styles/tokens.scss';
+
 .nav {
   content: map-get($merged, alternative);
 

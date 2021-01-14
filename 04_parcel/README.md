@@ -1,15 +1,7 @@
 NPM Scripts
 NPM Command 	Description
 npm run dev 	Local webserver for development (serve + watch)
-npm run watch 	Watch changes (dev for use with external server: apache, nginx, local server...)
-npm run report 	Generate reports into parcel-bundle-reports/ and build/bundle-buddy.json
-npm run build 	Automatic production build (for website upload).
-npm run gh-pages 	Automatic production build for GitHub Pages. *
-npm run deploy 	Deploy build folder to GitHub Pages.
-npm run lintcss 	Lint CSS files with stylelint (src/css/\*.css )
-npm run lintjs 	Lint Javascript files with eslint (src/js/\*.js )
-npm run clean:cache 	Remove .parcel-cache, dist and build folder.
-npm run clean:all 	Reset default repo and remove cache and all npm generated files.
+npm run build 	Build production server
 
 Check for addons: https://github.com/ManzDev/parcel-document-blank
 
