@@ -11,7 +11,9 @@
   "author": "ZP",
   "license": "ISC",
   "devDependencies": {
+    "highlight.js": "^10.5.0",
     "node-forge": "^0.10.0",
     "parcel": "^2.0.0-beta.1"
-  }
+  },
+  "dependencies": {}
 }
