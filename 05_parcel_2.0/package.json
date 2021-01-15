@@ -4,16 +4,28 @@
   "description": "https://v2.parceljs.org/",
   "main": "index.js",
   "scripts": {
-    "start": "parcel serve ./src/index.html",
+    "dev": "parcel ./src/index.html",
     "build": "parcel build ./src/index.html"
   },
-  "keywords": [],
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "IE 10"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/perkovz/skillz/tree/master/05_parcel_2.0"
+  },
+  "keywords": [
+    "parcel v2"
+  ],
   "author": "ZP",
   "license": "ISC",
   "devDependencies": {
     "highlight.js": "^10.5.0",
     "node-forge": "^0.10.0",
-    "parcel": "^2.0.0-beta.1"
+    "parcel": "^2.0.0-beta.1",
+    "sass": "^1.32.4"
   },
   "dependencies": {}
 }
