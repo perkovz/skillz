@@ -3,6 +3,7 @@
 https://v2.parceljs.org/
 
 
+
 ## Setting up the project
 
 Create package.json file
