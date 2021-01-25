@@ -7,11 +7,19 @@
     "dev": "parcel ./src/index.html",
     "build": "parcel build ./src/index.html"
   },
-  "browserslist": [
-    "last 1 version",
-    "> 1%",
-    "IE 10"
-  ],
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "IE 10",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/perkovz/skillz/tree/master/05_parcel_2.0"
